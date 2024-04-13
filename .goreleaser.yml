@@ -2,7 +2,7 @@ brews:
 - name: shareit
   homepage: https://github.com/Njorda/homebrew-tools
   tap:
-    owner: scraly
+    owner: nikenano
     name: homebrew-tools
 builds:
 - main: ./src/shareit/
