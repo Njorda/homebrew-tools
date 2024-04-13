@@ -4,5 +4,7 @@ brews:
   tap:
     owner: nikenano
     name: homebrew-tools
+  repository:
+    branch: main
 builds:
 - main: ./src/shareit/
