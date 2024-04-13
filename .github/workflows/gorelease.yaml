@@ -29,3 +29,4 @@ jobs:
           # 'latest', 'nightly', or a semver
           version: latest
           args: release --clean
+          install-only: true
