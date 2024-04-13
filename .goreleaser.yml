@@ -1,6 +1,6 @@
 brews:
 - name: shareit
-  homepage: https://github.com/scraly/homebrew-tools 
+  homepage: https://github.com/Njorda/homebrew-tools
   tap:
     owner: scraly
     name: homebrew-tools
