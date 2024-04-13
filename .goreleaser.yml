@@ -4,3 +4,5 @@ brews:
   tap:
     owner: scraly
     name: homebrew-tools
+builds:
+- main: ./src/main/
