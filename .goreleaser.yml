@@ -5,4 +5,4 @@ brews:
     owner: scraly
     name: homebrew-tools
 builds:
-- main: ./src/main/
+- main: ./src/shareit/
