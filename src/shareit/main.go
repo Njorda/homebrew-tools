@@ -44,7 +44,7 @@ func uploadFile(client *s3.Client, bucketName string, objectKey string, fileName
 		Bucket:  aws.String(bucketName),
 		Key:     aws.String(objectKey),
 		Body:    file,
-		Expires: &expires,
+		Expires: &expires, // After this the object is no longer cacheable, not what I though
 	})
 	if err != nil {
 		return fmt.Errorf("couldn't upload file %v to %v:%v. Here's why: %v",
