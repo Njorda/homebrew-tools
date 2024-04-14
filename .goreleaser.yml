@@ -2,7 +2,7 @@ brews:
 - name: shareit
   homepage: https://github.com/Njorda/homebrew-tools
   repository:
-    owner: nikenano
+    owner: Njorda
     name: homebrew-tools
     branch: main
 builds:
