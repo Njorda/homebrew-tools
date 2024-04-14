@@ -1,10 +1,9 @@
 brews:
 - name: shareit
   homepage: https://github.com/Njorda/homebrew-tools
-  tap:
+  repository:
     owner: nikenano
     name: homebrew-tools
-  repository:
     branch: main
 builds:
 - main: ./src/shareit/
